@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="bower_components/angular-material/angular-material.css">
+    <link rel="stylesheet" href="bower_components/material-design-lite/material.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-aria/angular-aria.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-material/angular-material.js"></script>
+    <script src="bower_components/material-design-lite/material.min.js"></script>
+    <script src="app.js"></script>
+
+
+
+
+    <title>Document</title>
+</head>
+<body ng-app="DragApp">
+
+    <header class="mdl-layout__header">
+<h1 class="hello">Drag and Drop Example in Material View</h1>
+    </header>
+<br>
+    <br>
+<div ng-cloak layout-gt-sm="row" layout="column" >
+<div flex-gt-sm="50" flex >
+<md-toolbar layout="row" md-no-ink class="md-primary" >
+    <div class="md-toolbar-tools">
+        <span>Demo 1</span>
+    </div>
+
+</md-toolbar>
+    <md-content>
+        <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <md-card draggable="true" ondragstart="drag(event)" id="drag1" >
+                <md-card-title >
+                    <md-card-title-text>
+                        <span class="md-headline">Hello Friends </span>
+                        <span class="md-subhead">I Am Sufiyan Mansoor</span>
+                    </md-card-title-text>
+                </md-card-title>
+            </md-card>
+
+        </div>
+
+    </md-content>
+</div>
+                   <md-divider></md-divider>
+    <div flex-gt-sm="50" flex >
+        <md-toolbar layout="row" class="md-accent md-raised md-hue-1"  >
+            <div class="md-toolbar-tools">
+                <span>Demo 2</span>
+            </div>
+        </md-toolbar>
+<md-content>
+    <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+</md-content>
+    </div>
+                    <md-divider></md-divider>
+    <div flex-gt-sm="50" flex >
+        <md-toolbar layout="row" class="md-warn md-raised md-hue-2" >
+            <div class="md-toolbar-tools">
+                <span>Demo 3</span>
+            </div>
+        </md-toolbar>
+        <md-content>
+            <div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        </md-content>
+    </div>
+                    <md-divider></md-divider>
+    <div flex-gt-sm="50" flex >
+        <md-toolbar layout="row"class="md-primary md-hue-1">
+            <div class="md-toolbar-tools">
+                <span>Demo 4</span>
+            </div>
+        </md-toolbar>
+        <md-content>
+            <div id="div4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        </md-content>
+    </div>
+</div>
+
+
+</body>
+</html>

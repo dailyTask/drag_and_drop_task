@@ -1,0 +1,7 @@
+https://github.com/angular/bower-material
+https://stories.uplabs.com/getting-started-with-angular-material-3ee3cdb8ecd8#.f4sihbr8e
+https://material.angularjs.org/latest/layout/container
+http://marceljuenemann.github.io/angular-drag-and-drop-lists/demo/#/advanced
+https://www.codementor.io/angularjs/tutorial/how-to-build-drag-and-drop-directives-library
+https://www.google.com/design/spec/material-design/introduction.html
+https://design.google.com/
